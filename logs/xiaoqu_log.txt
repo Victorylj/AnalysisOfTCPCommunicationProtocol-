@@ -1,0 +1,109 @@
+2017-02-27 09:51:14,980 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcdbf6156] REGISTERED
+2017-02-27 09:51:15,002 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcdbf6156] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 09:51:15,004 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcdbf6156, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 09:51:15,099 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcdbf6156, L:/0:0:0:0:0:0:0:0:8080] UNREGISTERED
+2017-02-27 09:52:14,377 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5416fbd3] REGISTERED
+2017-02-27 09:52:14,384 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5416fbd3] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 09:52:14,386 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5416fbd3, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 10:30:54,424 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0xcadd0cb6]'
+2017-02-27 10:30:54,442 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcadd0cb6] REGISTERED
+2017-02-27 10:30:54,444 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcadd0cb6] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 10:30:54,467 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xcadd0cb6, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 10:31:02,632 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0x5a3797b5]'
+2017-02-27 10:31:02,652 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5a3797b5] REGISTERED
+2017-02-27 10:31:02,655 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5a3797b5] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 10:31:02,656 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5a3797b5, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 10:31:19,458 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0xbd3bd8f4]'
+2017-02-27 10:31:19,474 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xbd3bd8f4] REGISTERED
+2017-02-27 10:31:19,476 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xbd3bd8f4] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 10:31:19,478 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xbd3bd8f4] CLOSE
+2017-02-27 10:31:19,479 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xbd3bd8f4] UNREGISTERED
+2017-02-27 10:31:32,826 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0x5afa05d4]'
+2017-02-27 10:31:32,843 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5afa05d4] REGISTERED
+2017-02-27 10:31:32,845 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5afa05d4] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 10:31:32,847 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5afa05d4, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 10:31:32,854 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x5afa05d4, L:/0:0:0:0:0:0:0:0:8080] UNREGISTERED
+2017-02-27 16:29:00,718 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0x7cc3216f]'
+2017-02-27 16:29:00,842 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x7cc3216f] REGISTERED
+2017-02-27 16:29:00,845 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x7cc3216f] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 16:29:00,847 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x7cc3216f, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 17:56:51,196 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0x921e4517]'
+2017-02-27 17:56:51,352 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x921e4517] REGISTERED
+2017-02-27 17:56:51,355 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x921e4517] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 17:56:51,400 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x921e4517, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 18:01:32,584 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x921e4517, L:/0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xb43b6f1f, L:/127.0.0.1:8080 - R:/127.0.0.1:3265]
+2017-02-27 18:01:32,667 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 - R:/127.0.0.1:3265] REGISTERED
+2017-02-27 18:01:32,668 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 - R:/127.0.0.1:3265] ACTIVE
+2017-02-27 18:01:32,745 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 - R:/127.0.0.1:3265] RECEIVED: 36B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 78 78 1f 12 01 11 02 1b 09 32 11 02 6b c9 26 0c |xx.......2..k.&.|
+|00000010| 37 73 6a 06 14 e7 01 cc 01 25 39 00 52 d4 00 0e |7sj......%9.R...|
+|00000020| 8f 8f 0d 0a                                     |....            |
++--------+-------------------------------------------------+----------------+
+2017-02-27 18:01:32,752 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.HLK.HLKHandler" HLKHandle 接收的数据78781f120111021b093211026bc9260c37736a0614e701cc0125390052d4000e8f8f0d0a/127.0.0.1:3265
+2017-02-27 18:01:32,752 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.HLK.HLKHandler" 传递数据为7878格式    /127.0.0.1:3265
+2017-02-27 18:01:35,186 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.utils.ServiceUtils" 上传时间为1917年03月27日 17时50分17秒
+2017-02-27 18:01:36,234 nioEventLoopGroup-3-1 "ERROR" "com.xiaoqu.bike.utils.ServiceUtils" GPS数据写入失败
+2017-02-27 18:11:58,436 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0x505cf802]'
+2017-02-27 18:11:58,454 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x505cf802] REGISTERED
+2017-02-27 18:11:58,456 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x505cf802] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 18:11:58,458 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x505cf802] CLOSE
+2017-02-27 18:11:58,460 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0x505cf802] UNREGISTERED
+2017-02-27 18:12:18,344 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 - R:/127.0.0.1:3265] EXCEPTION: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:642)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:565)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:479)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 18:12:18,408 nioEventLoopGroup-3-1 "WARN " "io.netty.channel.DefaultChannelPipeline" An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:642)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:565)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:479)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:441)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2017-02-27 18:12:18,411 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 ! R:/127.0.0.1:3265] INACTIVE
+2017-02-27 18:12:18,412 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xb43b6f1f, L:/127.0.0.1:8080 ! R:/127.0.0.1:3265] UNREGISTERED
+2017-02-27 18:12:29,121 main "WARN " "io.netty.bootstrap.ServerBootstrap" Unknown channel option 'TCP_NODELAY' for channel '[id: 0xa4c98746]'
+2017-02-27 18:12:29,137 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xa4c98746] REGISTERED
+2017-02-27 18:12:29,140 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xa4c98746] BIND: 0.0.0.0/0.0.0.0:8080
+2017-02-27 18:12:29,142 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xa4c98746, L:/0:0:0:0:0:0:0:0:8080] ACTIVE
+2017-02-27 18:12:37,392 nioEventLoopGroup-2-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xa4c98746, L:/0:0:0:0:0:0:0:0:8080] RECEIVED: [id: 0xe6553f2d, L:/127.0.0.1:8080 - R:/127.0.0.1:3608]
+2017-02-27 18:12:37,815 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xe6553f2d, L:/127.0.0.1:8080 - R:/127.0.0.1:3608] REGISTERED
+2017-02-27 18:12:37,815 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xe6553f2d, L:/127.0.0.1:8080 - R:/127.0.0.1:3608] ACTIVE
+2017-02-27 18:12:37,837 nioEventLoopGroup-3-1 "INFO " "io.netty.handler.logging.LoggingHandler" [id: 0xe6553f2d, L:/127.0.0.1:8080 - R:/127.0.0.1:3608] RECEIVED: 36B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 78 78 1f 12 01 11 02 1b 09 32 11 02 6b c9 26 0c |xx.......2..k.&.|
+|00000010| 37 73 6a 06 14 e7 01 cc 01 25 39 00 52 d4 00 0e |7sj......%9.R...|
+|00000020| 8f 8f 0d 0a                                     |....            |
++--------+-------------------------------------------------+----------------+
+2017-02-27 18:12:37,844 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.HLK.HLKHandler" HLKHandle 接收的数据78781f120111021b093211026bc9260c37736a0614e701cc0125390052d4000e8f8f0d0a/127.0.0.1:3608
+2017-02-27 18:12:37,844 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.HLK.HLKHandler" 传递数据为7878格式    /127.0.0.1:3608
+2017-02-27 18:12:37,847 nioEventLoopGroup-3-1 "INFO " "com.xiaoqu.bike.HLK.HLKHandler" 上传时间为1917年03月27日 17时50分17秒

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.xiaoqu.bike.dao.BatteryStatusInfoMapper" >
+  <resultMap id="BaseResultMap" type="com.xiaoqu.bike.dto.BatteryStatusInfo" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="imei" property="imei" jdbcType="VARCHAR" />
+    <result column="longitude" property="longitude" jdbcType="VARCHAR" />
+    <result column="latitude" property="latitude" jdbcType="VARCHAR" />
+    <result column="battery_level" property="batteryLevel" jdbcType="INTEGER" />
+    <result column="battery_status" property="batteryStatus" jdbcType="TINYINT" />
+    <result column="data_time" property="dataTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, imei, longitude, latitude, battery_level, battery_status, data_time
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from battery_status_info
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from battery_status_info
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.xiaoqu.bike.dto.BatteryStatusInfo" >
+    insert into battery_status_info (id, imei, longitude, 
+      latitude, battery_level, battery_status, 
+      data_time)
+    values (#{id,jdbcType=INTEGER}, #{imei,jdbcType=VARCHAR}, #{longitude,jdbcType=VARCHAR}, 
+      #{latitude,jdbcType=VARCHAR}, #{batteryLevel,jdbcType=INTEGER}, #{batteryStatus,jdbcType=TINYINT}, 
+      #{dataTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.xiaoqu.bike.dto.BatteryStatusInfo" >
+    insert into battery_status_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="imei != null" >
+        imei,
+      </if>
+      <if test="longitude != null" >
+        longitude,
+      </if>
+      <if test="latitude != null" >
+        latitude,
+      </if>
+      <if test="batteryLevel != null" >
+        battery_level,
+      </if>
+      <if test="batteryStatus != null" >
+        battery_status,
+      </if>
+      <if test="dataTime != null" >
+        data_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="imei != null" >
+        #{imei,jdbcType=VARCHAR},
+      </if>
+      <if test="longitude != null" >
+        #{longitude,jdbcType=VARCHAR},
+      </if>
+      <if test="latitude != null" >
+        #{latitude,jdbcType=VARCHAR},
+      </if>
+      <if test="batteryLevel != null" >
+        #{batteryLevel,jdbcType=INTEGER},
+      </if>
+      <if test="batteryStatus != null" >
+        #{batteryStatus,jdbcType=TINYINT},
+      </if>
+      <if test="dataTime != null" >
+        #{dataTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.xiaoqu.bike.dto.BatteryStatusInfo" >
+    update battery_status_info
+    <set >
+      <if test="imei != null" >
+        imei = #{imei,jdbcType=VARCHAR},
+      </if>
+      <if test="longitude != null" >
+        longitude = #{longitude,jdbcType=VARCHAR},
+      </if>
+      <if test="latitude != null" >
+        latitude = #{latitude,jdbcType=VARCHAR},
+      </if>
+      <if test="batteryLevel != null" >
+        battery_level = #{batteryLevel,jdbcType=INTEGER},
+      </if>
+      <if test="batteryStatus != null" >
+        battery_status = #{batteryStatus,jdbcType=TINYINT},
+      </if>
+      <if test="dataTime != null" >
+        data_time = #{dataTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.xiaoqu.bike.dto.BatteryStatusInfo" >
+    update battery_status_info
+    set imei = #{imei,jdbcType=VARCHAR},
+      longitude = #{longitude,jdbcType=VARCHAR},
+      latitude = #{latitude,jdbcType=VARCHAR},
+      battery_level = #{batteryLevel,jdbcType=INTEGER},
+      battery_status = #{batteryStatus,jdbcType=TINYINT},
+      data_time = #{dataTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
